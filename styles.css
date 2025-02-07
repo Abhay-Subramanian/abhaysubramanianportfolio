@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ html, body {
     background: #f8f9fa;
 }
 
-/* Header */
+
 header {
     background: #1a1a2e;
     padding: 20px 0;
@@ -41,7 +41,7 @@ nav ul li a:hover {
     color: #ff4b5c;
 }
 
-/* About Section */
+
 #about {
     background: linear-gradient(135deg, #0f3460, #16213e);
     color: white;
@@ -106,7 +106,7 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
-/* Projects Section */
+
 .section {
     padding: 60px 20px;
     text-align: center;
@@ -188,42 +188,8 @@ nav ul li a:hover {
     background: #ff4b5c;
 }
 
-/* Contact Form */
-#contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
 
-#contact-form input, 
-#contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
 
-#contact-form button {
-    width: 100%;
-    padding: 12px;
-    background: #ff4b5c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#contact-form button:hover {
-    background: #d63031;
-}
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
