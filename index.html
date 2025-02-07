@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./images/abhayimage.jpg" alt="Abhay Subramanian" class="profile-img">
+                <div class="about-text">
+                    <p>I'm Abhay Subramanian, currently pursuing an MCA at the Federal Institute of Science and Technology (FISAT). I have completed my BCA from Mar Elias College, Kottapady.</p>
+                    <button id="download-btn" class="btn">Download Resume</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Tripessense</h3>
+                    <p>"TRIPESSENSE" is used to automate all process of the travel and tourism, which deals with creation, booking and confirmation and user details. The project is designed HTML-CSS-BOOTSTRAP-JAVASCRIPT as front end and MYSQL-PHP as backend which works in any browsers. The coding language used HTML, JAVASCRIPT and PHP. TRIPESSENSE is used to book a tour from anywhere in the world by a single dynamic website which will help the user to know all about the places and tour details in a single website. The admin can add packages to the website from a certain travel agents and hotels by create a tour page. Then the users can sign in and book each project, they can be confirmed by the admin in their manage booking page. The user can see the confirmation in their my booking page. It is an easiest platform for all travelers which can be easily booked and know the all details.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Eduplus</h3>
+                    <p>EduPlus is an interactive system, highly user friendly, and designed mainly for the college department. The system covers almost all the functional areas of registration of student, faculties the department and course details. This project helps academic institutions keep in touch with students. The website also provide an important feature is to create an e-information about the student-details such as marks, which department, academic details etc. Through this we can easily interact with student, faculties according by the website.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Django</span>
+                <span>PHP</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Let's work together! Reach out via email.</p>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/Abhay-Subramanian" target="_blank">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/abhay-subramanian-b68261278" target="_blank">
+                <img src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="mailto:abhaysubramanian209@gmail.com">
+                <img src="./images/mail.png" alt="Email">
+            </a>
+            <a href="tel:+1234567890">
+                <img src="./images/phoneicon.png" alt="Phone Number">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
